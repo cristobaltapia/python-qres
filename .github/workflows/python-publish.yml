@@ -47,7 +47,7 @@ jobs:
 
     environment:
       name: pypi
-      url: https://pypi.org/p/python-qres
+      url: https://pypi.org/p/qres-reader
 
     steps:
       - name: Download artifacts
