@@ -30,15 +30,18 @@ def test_reader():
 def test_reader_df():
     data = read_qres_file_as_dataframe(TEST_FILE)
 
-    assert all(data.columns == [
-        "Axial Kraft [kN]",
-        "Axial Weg [mm]",
-        "MT10-1 Weg [mm]",
-        "MT10-2 Weg [mm]",
-        "Mittelwert Weg [mm]",
-        "Axial  Servoventilbefehl [%]",
-        "Axial Command [mm]",
-    ])
+    assert all(
+        data.columns
+        == [
+            "Axial Kraft [kN]",
+            "Axial Weg [mm]",
+            "MT10-1 Weg [mm]",
+            "MT10-2 Weg [mm]",
+            "Mittelwert Weg [mm]",
+            "Axial  Servoventilbefehl [%]",
+            "Axial Command [mm]",
+        ]
+    )
 
 
 if __name__ == "__main__":
