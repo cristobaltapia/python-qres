@@ -34,7 +34,7 @@ data.plot()
 plt.show()
 ```
 
-Additionally, the data can be read as an pure array plus a header dictionary containing the metadata.
+Additionally, the data can be read as an array plus a header dictionary containing the metadata.
 
 ```python
 import numpy as np
