@@ -1,6 +1,6 @@
 [project]
 name = "qres-reader"
-version = "0.1.5"
+version = "0.1.7"
 description = "A python reader for *.qres binary files"
 readme = "README.md"
 authors = [
