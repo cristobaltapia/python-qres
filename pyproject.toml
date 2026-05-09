@@ -1,7 +1,7 @@
 [project]
 name = "qres-reader"
 version = "0.1.5"
-description = "Add your description here"
+description = "A python reader for *.qres binary files"
 readme = "README.md"
 authors = [
     { name = "Cristóbal Tapia Camú", email = "crtapia@gmail.com" }
